@@ -1,43 +1,85 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "407cdf9c-846e-4d13-ae14-3db2deb2e41d"
+    scss:
+      default_beautifier: "SassConvert"
   core:
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
+    audioBeep: false
     telemetryConsent: "no"
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-dark-ui"
+      "behave-theme"
     ]
   editor:
-    fontFamily: "Menlo"
-    fontSize: 15
+    fontFamily: "input"
     invisibles: {}
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    panelDisplayMode: "closed"
-  "linter-eslint":
-    useGlobalEslint: true
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+    lineHeight: 1.8
+    preferredLineLength: 100
+    showInvisibles: true
+  "exception-reporting":
+    userId: "9c94db60-ae53-d604-3dad-0937109a40b5"
+  "fuzzy-finder": {}
+  "git-plus": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    absoluteMode: true
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "rails-rspec": {}
+  "ruby-test":
+    rspecAllCommand: "if [ -x bin/rspec ]; then bin/rspec; else bundle exec rspec; fi"
+    rspecFileCommand: "if [ -x bin/rspec ]; then bin/rspec {relative_path}; else bundle exec rspec {relative_path}; fi"
+    rspecSingleCommand: "if [ -x bin/rspec ]; then bin/rspec {relative_path}:{line_number}; else bundle exec rspec {relative_path}:{line_number}; fi"
+    specFramework: "rspec"
+    testFramework: "minitest"
+  tabs:
+    usePreviewTabs: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".diff.source":
+  editor:
+    preferredLineLength: 100
+".erb.html.text":
+  editor:
+    preferredLineLength: 100
+".erb.text":
+  whitespace:
+    ensureSingleTrailingNewline: false
+".haml.text":
+  editor:
+    preferredLineLength: 100
+".hamlc.text":
+  editor:
+    preferredLineLength: 100
+".html.js.text":
+  editor:
+    preferredLineLength: 100
+".html.ruby.text":
+  editor:
+    preferredLineLength: 100
+".js.rails.source":
+  whitespace:
+    ensureSingleTrailingNewline: false
+".js.rails.source source.jquery.js":
+  editor:
+    preferredLineLength: 100
+".rails.rjs.ruby.source":
+  editor:
+    preferredLineLength: 100
+".rails.ruby.source":
+  editor:
+    preferredLineLength: 100
+".ruby.source":
+  editor:
+    preferredLineLength: 100
+".ruby.source.sql":
+  editor:
+    preferredLineLength: 100
