@@ -40,7 +40,15 @@ def cop
 end
 
 def me
-  User.find_by_login(ENV['USER'].strip)
+  klass = if defined? Spree::User
+            Spree::User
+          elsif defined? Alchemy::User
+            Alchemy::User
+          elsif defined? User
+            User
+          end
+  return "No user class found!" unless klass
+  klass.find_by(login: ENV['USER'].strip)
 end
 
 def r
