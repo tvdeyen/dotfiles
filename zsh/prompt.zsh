@@ -58,9 +58,13 @@ battery_status() {
   $ZSH/bin/battery-status
 }
 
+ruby_version() {
+  echo $(rvm tools identifier)
+}
+
 export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
-  export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
+  export RPROMPT="%{[38;5;161m%}$(ruby_version)%{$reset_color%}"
 }
 
 precmd() {
