@@ -13,6 +13,7 @@
     ]
   editor:
     fontFamily: "input"
+    fontSize: 16
     invisibles: {}
     lineHeight: 1.8
     preferredLineLength: 100
@@ -32,9 +33,9 @@
       selectionDecorationsZIndex: 0
   "rails-rspec": {}
   "ruby-test":
-    rspecAllCommand: "if [ -x bin/rspec ]; then bin/rspec; else bundle exec rspec; fi"
-    rspecFileCommand: "if [ -x bin/rspec ]; then bin/rspec {relative_path}; else bundle exec rspec {relative_path}; fi"
-    rspecSingleCommand: "if [ -x bin/rspec ]; then bin/rspec {relative_path}:{line_number}; else bundle exec rspec {relative_path}:{line_number}; fi"
+    rspecAllCommand: "eval '$(rbenv init -)'; if [ -x bin/rspec ]; then bin/rspec; else bundle exec rspec; fi"
+    rspecFileCommand: "eval '$(rbenv init -)'; if [ -x bin/rspec ]; then bin/rspec {relative_path}; else bundle exec rspec {relative_path}; fi"
+    rspecSingleCommand: "eval '$(rbenv init -)'; if [ -x bin/rspec ]; then bin/rspec {relative_path}:{line_number}; else bundle exec rspec {relative_path}:{line_number}; fi"
     specFramework: "rspec"
     testFramework: "minitest"
   tabs:
