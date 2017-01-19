@@ -33,9 +33,10 @@
       selectionDecorationsZIndex: 0
   "rails-rspec": {}
   "ruby-test":
-    rspecAllCommand: "eval '$(rbenv init -)'; if [ -x bin/rspec ]; then bin/rspec; else bundle exec rspec; fi"
-    rspecFileCommand: "eval '$(rbenv init -)'; if [ -x bin/rspec ]; then bin/rspec {relative_path}; else bundle exec rspec {relative_path}; fi"
-    rspecSingleCommand: "eval '$(rbenv init -)'; if [ -x bin/rspec ]; then bin/rspec {relative_path}:{line_number}; else bundle exec rspec {relative_path}:{line_number}; fi"
+    rspecAllCommand: "eval \"$(rbenv init -)\"; bundle exec rspec"
+    rspecFileCommand: "eval \"$(rbenv init -)\"; bundle exec rspec --tty {relative_path}"
+    rspecSingleCommand: "eval \"$(rbenv init -)\"; bundle exec rspec --tty {relative_path}:{line_number}"
+    shell: "zsh"
     specFramework: "rspec"
     testFramework: "minitest"
   tabs:
