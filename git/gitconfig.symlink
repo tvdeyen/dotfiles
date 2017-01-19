@@ -42,4 +42,7 @@
         # for more information on different options of the below setting.
         #
         # Setting to git 2.0 default to suppress warning message
-        default = simple
+        default = current
+[user]
+        name = Thomas von Deyen
+        email = thomas@vondeyen.com
