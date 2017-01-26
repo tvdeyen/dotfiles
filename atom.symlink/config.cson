@@ -2,6 +2,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "407cdf9c-846e-4d13-ae14-3db2deb2e41d"
+    html:
+      indent_size: 2
     scss:
       default_beautifier: "SassConvert"
   core:
