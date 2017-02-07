@@ -48,3 +48,5 @@
 [user]
         name = Thomas von Deyen
         email = thomas@vondeyen.com
+[merge]
+        tool = opendiff
