@@ -26,6 +26,7 @@ brew 'rbenv'
 brew 'rbenv-gemset'
 brew 'phantomjs'
 brew 'hub'
+brew 'heroku'
 
 cask '1password'
 cask 'lastpass'
