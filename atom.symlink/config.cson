@@ -8,6 +8,10 @@
       default_beautifier: "SassConvert"
   core:
     audioBeep: false
+    disabledPackages: [
+      "textile-preview"
+      "language-textile"
+    ]
     telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
