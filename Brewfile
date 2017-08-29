@@ -28,6 +28,7 @@ brew 'phantomjs'
 brew 'hub'
 brew 'heroku'
 brew 'gist'
+brew 'watchman'
 
 cask '1password'
 cask 'lastpass'
