@@ -26,8 +26,13 @@
     showInvisibles: true
   "exception-reporting":
     userId: "9c94db60-ae53-d604-3dad-0937109a40b5"
+  "file-types":
+    deface: "text.html.ruby"
   "fuzzy-finder": {}
   "git-plus": {}
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 81
   "markdown-preview":
     useGitHubStyle: true
   minimap:
@@ -37,6 +42,11 @@
       "git-diffDecorationsZIndex": 0
       selection: true
       selectionDecorationsZIndex: 0
+  "platformio-ide-terminal":
+    style:
+      theme: "one-dark"
+    toggles:
+      autoClose: true
   "rails-rspec": {}
   "ruby-test":
     shell: "zsh"
