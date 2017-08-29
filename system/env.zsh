@@ -1,2 +1,2 @@
-export EDITOR='atom'
-export ALCHEMY_GEM_PATH="/Users/tvd/code/ruby/gems/alchemy_cms/"
+export EDITOR='subl'
+export ALCHEMY_GEM_PATH="/Users/tvd/code/alchemy_cms/"
