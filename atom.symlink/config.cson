@@ -14,7 +14,7 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
+      "one-dark-ui"
       "behave-theme"
     ]
   editor:
@@ -31,8 +31,9 @@
   "fuzzy-finder": {}
   "git-plus": {}
   linter: {}
-  "linter-ui-default":
-    panelHeight: 81
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true
   minimap:
