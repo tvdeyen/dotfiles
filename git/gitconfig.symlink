@@ -16,6 +16,10 @@
         br = branch
         df = diff
         dc = diff --cached
+        ri = rebase -i
+        rim = rebase -i master
+        rc = rebase --continue
+        ra = rebase --abort
         lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local
         lol = log --graph --decorate --pretty=oneline --abbrev-commit
         lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
