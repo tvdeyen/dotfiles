@@ -29,6 +29,7 @@ brew 'hub'
 brew 'heroku'
 brew 'gist'
 brew 'watchman'
+brew 'chromedriver'
 
 cask '1password'
 cask 'lastpass'
