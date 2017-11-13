@@ -30,6 +30,7 @@ brew 'heroku'
 brew 'gist'
 brew 'watchman'
 brew 'chromedriver'
+brew 'awscli'
 
 cask '1password'
 cask 'lastpass'
