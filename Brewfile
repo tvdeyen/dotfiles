@@ -32,6 +32,7 @@ brew 'watchman'
 brew 'chromedriver'
 brew 'awscli'
 brew 'pngquant'
+brew 'memcached'
 
 cask '1password'
 cask 'lastpass'
