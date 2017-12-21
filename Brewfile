@@ -31,6 +31,7 @@ brew 'gist'
 brew 'watchman'
 brew 'chromedriver'
 brew 'awscli'
+brew 'pngquant'
 
 cask '1password'
 cask 'lastpass'
