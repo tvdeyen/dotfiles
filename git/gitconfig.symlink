@@ -54,3 +54,5 @@
         email = thomas@vondeyen.com
 [merge]
         tool = opendiff
+[credential]
+	helper = osxkeychain
