@@ -32,6 +32,7 @@ brew 'chromedriver'
 brew 'awscli'
 brew 'pngquant'
 brew 'memcached'
+brew 'ansible'
 
 cask '1password'
 cask 'lastpass'
