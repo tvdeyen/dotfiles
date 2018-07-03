@@ -1,101 +1,36 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "407cdf9c-846e-4d13-ae14-3db2deb2e41d"
-    html:
-      indent_size: 2
-    scss:
-      default_beautifier: "SassConvert"
   core:
-    audioBeep: false
-    disabledPackages: [
-      "textile-preview"
-      "language-textile"
-    ]
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    projectHome: "/Users/tvd/code"
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "behave-theme"
     ]
   editor:
-    fontFamily: "input"
-    fontSize: 16
-    invisibles: {}
-    lineHeight: 1.8
+    fontFamily: "Input"
+    fontSize: 15
+    lineHeight: 1.75
     preferredLineLength: 100
     showInvisibles: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
   "exception-reporting":
-    userId: "9c94db60-ae53-d604-3dad-0937109a40b5"
-  "file-types":
-    deface: "text.html.ruby"
-  "fuzzy-finder": {}
-  "git-plus": {}
-  linter: {}
-  "linter-jshint":
-    disableWhenNoJshintrcFileInPath: true
+    userId: "94dc9480-5635-4180-9d97-025193f613ed"
   "linter-ui-default": {}
-  "markdown-preview":
-    useGitHubStyle: true
   minimap:
-    absoluteMode: true
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
       selection: true
       selectionDecorationsZIndex: 0
-  "platformio-ide-terminal":
-    style:
-      theme: "one-dark"
-    toggles:
-      autoClose: true
-  "rails-rspec": {}
   "ruby-test":
-    shell: "zsh"
+    rspecAllCommand: "bundle exec rspec --tty spec"
+    rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+    rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
     specFramework: "rspec"
-    testFramework: "minitest"
-  tabs:
-    usePreviewTabs: true
-  "tree-view": {}
   welcome:
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
-".diff.source":
-  editor:
-    preferredLineLength: 100
-".erb.html.text":
-  editor:
-    preferredLineLength: 100
-".erb.text":
-  whitespace:
-    ensureSingleTrailingNewline: false
-".haml.text":
-  editor:
-    preferredLineLength: 100
-".hamlc.text":
-  editor:
-    preferredLineLength: 100
-".html.js.text":
-  editor:
-    preferredLineLength: 100
-".html.ruby.text":
-  editor:
-    preferredLineLength: 100
-".js.rails.source":
-  whitespace:
-    ensureSingleTrailingNewline: false
-".js.rails.source source.jquery.js":
-  editor:
-    preferredLineLength: 100
-".rails.rjs.ruby.source":
-  editor:
-    preferredLineLength: 100
-".rails.ruby.source":
-  editor:
-    preferredLineLength: 100
-".ruby.source":
-  editor:
-    preferredLineLength: 100
-".ruby.source.sql":
-  editor:
-    preferredLineLength: 100
