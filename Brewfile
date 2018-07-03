@@ -52,3 +52,5 @@ cask 'qlmarkdown'
 cask 'imageoptim'
 cask 'keybase'
 cask 'font-hack'
+cask 'postgres'
+
