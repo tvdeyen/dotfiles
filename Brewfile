@@ -31,7 +31,6 @@ brew 'awscli'
 brew 'pngquant'
 brew 'memcached'
 brew 'ansible'
-brew 'v8'
 
 cask '1password'
 cask 'firefox'
@@ -53,4 +52,3 @@ cask 'imageoptim'
 cask 'keybase'
 cask 'font-hack'
 cask 'postgres'
-
