@@ -58,4 +58,6 @@
 [credential]
 	helper = osxkeychain
 [commit]
-	gpgsign = true
+    gpgsign = true
+[checkout]
+    defaultRemote = origin
