@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'caskroom/cask'
+tap 'heroku/brew'
 
 brew 'ack'
 brew 'zsh'
