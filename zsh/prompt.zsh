@@ -59,11 +59,12 @@ battery_status() {
 }
 
 ruby_version() {
-  echo $(rbenv version-name)
+  rbv=`ruby -v`
+  echo ${rbv:0:10}
 }
 
 set_prompt () {
-  export PROMPT=$'\n%{$fg_bold[green]%}%n%{$reset_color%} and %{[38;5;161m%}ruby-$(ruby_version)%{$reset_color%} in $(directory_name) $(git_dirty)$(need_push)\n› '
+  export PROMPT=$'\n%{$fg_bold[green]%}%n%{$reset_color%} and %{[38;5;161m%}$(ruby_version)%{$reset_color%} in $(directory_name) $(git_dirty)$(need_push)\n› '
   export RPROMPT=""
 }
 
