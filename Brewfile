@@ -34,6 +34,7 @@ brew 'pngquant'
 brew 'memcached'
 brew 'ansible'
 brew 'puma-dev'
+brew 'tree'
 
 cask 'firefox'
 cask 'google-chrome'
