@@ -55,7 +55,9 @@
 	signingkey = 7FEE45A164D48B7B
 [merge]
         tool = opendiff
-#[commit]
-#    gpgsign = true
+[commit]
+	gpgsign = true
 [checkout]
     defaultRemote = origin
+[gpg]
+	program = gpg
