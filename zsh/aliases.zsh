@@ -10,3 +10,5 @@ alias git-clean-up="git branch --merged | grep -v -e 'master' -e '\*' | xargs -n
 alias candles='cd ~/code/candlescience/CSpree'
 alias beer='bundle exec rspec'
 alias brake='bundle exec rake'
+
+alias l='ls -al --color'
