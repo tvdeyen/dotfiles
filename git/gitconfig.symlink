@@ -55,8 +55,6 @@
 	signingkey = 7FEE45A164D48B7B
 [merge]
         tool = opendiff
-[credential]
-	helper = osxkeychain
 [commit]
     gpgsign = true
 [checkout]
