@@ -1,0 +1,44 @@
+{
+	"name": "behave",
+	"displayName": "Behave Theme",
+	"description": "An easy-on-the-eyes dark syntax theme for Visual Studio Code.",
+	"version": "1.6.0",
+	"publisher": "balmor",
+	"icon": "icon.svg",
+	"engines": {
+		"vscode": "^1.4.0"
+	},
+	"keywords": [
+		"behave",
+		"theme",
+		"cool",
+		"best",
+		"html",
+		"css",
+		"js",
+		"javascript",
+		"es6"
+	],
+	"homepage": "https://gitlab.com/balmor/behave-theme",
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/balmor/behave-theme.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Behave",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Behave.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "b7883d89-4aba-4acb-a8f3-44dd90fcc5a0",
+		"publisherId": "8aacfafc-129a-4679-b31c-2319c5460321",
+		"publisherDisplayName": "balmor"
+	}
+}
