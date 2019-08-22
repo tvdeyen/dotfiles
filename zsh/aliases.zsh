@@ -10,5 +10,9 @@ alias git-clean-up="git branch --merged | grep -v -e 'master' -e '\*' | xargs -n
 alias candles='cd ~/code/candlescience/CSpree'
 alias beer='bundle exec rspec'
 alias brake='bundle exec rake'
-
+alias deer='docker-compose run app bundle exec rspec'
 alias l='ls -al --color'
+alias open='xdg-open'
+alias dcu='docker-compose up'
+alias dcd='docker-compose down'
+alias dce='docker-compose exec'
