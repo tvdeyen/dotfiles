@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'caskroom/cask'
+tap 'homebrew/cask'
 tap 'heroku/brew'
 tap 'puma/puma'
 
@@ -42,11 +42,11 @@ cask 'chromedriver'
 cask 'psequel'
 cask 'transmit'
 cask 'vlc'
-cask 'skype'
 cask 'spotify'
 cask 'tower'
-cask 'flux'
 cask 'fluid'
 cask 'qlmarkdown'
 cask 'imageoptim'
 cask 'postgres'
+cask 'keybase'
+
