@@ -11,5 +11,5 @@ alias candles='cd ~/code/candlescience/CSpree'
 alias beer='bundle exec rspec'
 alias brake='bundle exec rake'
 
-alias l='ls -al --color'
+alias l='ls -hal --color'
 alias copy='rsync -avuh --delete --progress'
