@@ -52,12 +52,12 @@
 [user]
         name = Thomas von Deyen
         email = thomas@vondeyen.com
-	signingkey = 7FEE45A164D48B7B
+	signingkey = 8B8211ABDF98696F83B2D3947FEE45A164D48B7B
 [merge]
         tool = opendiff
 [commit]
-	gpgsign = false
+	gpgsign = true
 [checkout]
     defaultRemote = origin
 [gpg]
-	program = gpg
+	program = /usr/local/bin/gpg
