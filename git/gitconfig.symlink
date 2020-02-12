@@ -56,7 +56,7 @@
 [merge]
         tool = opendiff
 [commit]
-	gpgsign = true
+	gpgsign = false
 [checkout]
     defaultRemote = origin
 [gpg]
