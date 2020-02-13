@@ -50,4 +50,5 @@ cask 'imageoptim'
 cask 'postgres'
 cask 'keybase'
 cask 'gpg-suite'
+cask 'harvest'
 
