@@ -60,7 +60,7 @@ battery_status() {
 
 ruby_version() {
   rbv=`ruby -v`
-  echo ${rbv:0:10}
+  echo ${rbv%p*}
 }
 
 set_prompt () {
