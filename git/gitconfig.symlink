@@ -24,6 +24,7 @@
         lol = log --graph --decorate --pretty=oneline --abbrev-commit
         lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
         ls = ls-files
+        mc = merge --continue
 [branch]
         autosetupmerge = true
         autosetuprebase = always
@@ -60,4 +61,6 @@
 [checkout]
     defaultRemote = origin
 [gpg]
-	program = /usr/local/bin/gpg
+    program = /usr/local/bin/gpg
+[init]
+    defaultBranch = main
