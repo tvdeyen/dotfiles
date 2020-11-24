@@ -20,9 +20,9 @@ git_dirty() {
   else
     if [[ $($git status --porcelain) == "" ]]
     then
-      echo "on %{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
+      echo "%{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
     else
-      echo "on %{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
+      echo "%{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
     fi
   fi
 }
@@ -64,7 +64,7 @@ ruby_version() {
 }
 
 set_prompt () {
-  export PROMPT=$'\n%{$fg_bold[green]%}%n%{$reset_color%} and %{[38;5;161m%}$(ruby_version)%{$reset_color%} in $(directory_name) $(git_dirty)$(need_push)\n› '
+  export PROMPT=$'\n%{$fg_bold[green]%}%n@%m%{$reset_color%} %{[38;5;161m%}$(ruby_version)%{$reset_color%} $(directory_name) $(git_dirty)$(need_push)\n› '
   export RPROMPT=""
 }
 
