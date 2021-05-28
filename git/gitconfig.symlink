@@ -17,7 +17,7 @@
         df = diff
         dc = diff --cached
         ri = rebase -i
-        rim = rebase -i master
+        rim = rebase -i main
         rc = rebase --continue
         ra = rebase --abort
         lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local
