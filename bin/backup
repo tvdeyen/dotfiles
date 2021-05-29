@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+rsync -avP \
+    --exclude 'tmp'\
+    --exclude 'log'\
+    --exclude '*.dump'\
+    --exclude '*.sql'\
+    --exclude 'node_modules'\
+    --exclude 'public/packs*'\
+    --exclude 'vendor/gems'\
+    --exclude 'vendor/cache'\
+    --exclude 'vendor/ruby'\
+    --exclude 'vendor/bundle'\
+    --exclude 'uploads'\
+    $1 $2
