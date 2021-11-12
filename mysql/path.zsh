@@ -1,1 +1,1 @@
-export PATH="/usr/local/opt/mysql/bin:$PATH"
+# export PATH="/usr/local/opt/mysql/bin:$PATH"
