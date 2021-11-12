@@ -1,2 +1,2 @@
-export LDFLAGS="-L/usr/local/opt/sqlite/lib $LDFLAGS"
-export CPPFLAGS="-I/usr/local/opt/sqlite/include $CPPFLAGS"
+export LDFLAGS="-L/opt/homebrew/opt/sqlite/lib $LDFLAGS"
+export CPPFLAGS="-I/opt/homebrew/opt/sqlite/include $CPPFLAGS"

@@ -1,1 +1,1 @@
-export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
