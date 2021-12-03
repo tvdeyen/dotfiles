@@ -35,6 +35,7 @@ brew "awscli"
 # brew 'ansible'
 brew "puma-dev"
 brew "tree"
+brew "autojump"
 
 cask "firefox"
 cask "google-chrome"
