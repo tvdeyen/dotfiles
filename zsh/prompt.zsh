@@ -59,8 +59,8 @@ battery_status() {
 }
 
 ruby_version() {
-  rbv=`ruby -v`
-  echo ${rbv%p*}
+  rbv=`ruby -e "puts RUBY_VERSION"`
+  echo "ruby-${rbv%p*}"
 }
 
 set_prompt () {
