@@ -1,7 +1,5 @@
 cask_args appdir: "/Applications"
 
-tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "heroku/brew"
 tap "puma/puma"
 
