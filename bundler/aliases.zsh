@@ -1,5 +1,5 @@
 alias bi='bundle install'
-alias bu='bundle update'
+alias bu='bundle update --all'
 alias be='bundle exec'
 alias bo='bundle open'
 alias bp='bundle pristine'
