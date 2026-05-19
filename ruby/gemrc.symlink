@@ -3,7 +3,7 @@
 :verbose: true
 :backtrace: false
 :benchmark: false
-:gem: --no-document
+:gem: --no-document --no-user-install
 :bulk_threshold: 1000
 :sources:
   - https://rubygems.org/
